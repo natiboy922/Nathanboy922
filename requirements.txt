@@ -2,3 +2,4 @@ python-telegram-bot
 telegram
 yt-dlp
 flask
+replicate

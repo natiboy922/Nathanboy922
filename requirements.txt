@@ -1,5 +1,4 @@
-python-telegram-bot
-telegram
-yt-dlp
-flask
+python-telegram-bot==20.3
 replicate
+requests
+python-dotenv

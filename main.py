@@ -6,7 +6,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
 # Tokens (hardcoded)
-REPLICATE_API_TOKEN = "r8_ac3bxo5otg7H7tPPROm1UfOwvqFW5Z82Z4wdr"
+REPLICATE_API_TOKEN = "r8_Rxaa5cVNHBSahyJQGknp7nGGSt4aelQ107yCa"
 TELEGRAM_BOT_TOKEN = "8024591512:AAHDJfkd4qroZHPIcuA4mPlGg6BUVdV80U0"
 
 # Replicate client

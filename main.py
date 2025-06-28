@@ -1,22 +1,13 @@
-import os
 import asyncio
 import replicate
 import requests
 import logging
-from dotenv import load_dotenv
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
-# Load from .env file
-load_dotenv()
-
-# Tokens
-REPLICATE_API_TOKEN = os.getenv("REPLICATE_API_TOKEN")
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-
-# Check if token exists
-if not TELEGRAM_BOT_TOKEN or not REPLICATE_API_TOKEN:
-    raise Exception("❌ Missing API token in .env")
+# Tokens (hardcoded)
+REPLICATE_API_TOKEN = "r8_ac3bxo5otg7H7tPPROm1UfOwvqFW5Z82Z4wdr"
+TELEGRAM_BOT_TOKEN = "8024591512:AAHDJfkd4qroZHPIcuA4mPlGg6BUVdV80U0"
 
 # Replicate client
 client = replicate.Client(api_token=REPLICATE_API_TOKEN)
